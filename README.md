@@ -3,28 +3,28 @@ Installation
 
 1. Add this plugin to your project as Git submodules:
 
-       $ git submodule add git@github.com:Icepique/sfGravatarPlugin.git plugins/sfGravatarPlugin
+    $ git submodule add git@github.com:Icepique/sfGravatarPlugin.git plugins/sfGravatarPlugin
 
 
 2. Add this plugin to your ProjectConfiguration file:
 
-       // config/ProjectConfiguration.class.php
-       public function setup()
-       {
-         $this->enablePlugins(array(
-           // ...
-           'sfGravatarPlugin',
-           // ...
-         ));
-       }
+    // config/ProjectConfiguration.class.php
+    public function setup()
+    {
+      $this->enablePlugins(array(
+        // ...
+        'sfGravatarPlugin',
+        // ...
+      ));
+    }
           
 3. Enable the helper in your settings.yml file
 
-       // apps/frontend/config/settings.yml
-       all:
-         .settings:
-           # ...
-           standard_helpers:  [ ... , Gravatar]
+    // apps/frontend/config/settings.yml
+    all:
+      .settings:
+        # ...
+        standard_helpers:  [ ... , Gravatar]
 
 4. Create a directory named ``g_cache`` in ``web/uploads`` and add full rights to it (note: you can change the directory's name but don't forget to change it in config file).
 
@@ -66,6 +66,6 @@ You can set some default option that are common for all of your gravatars in you
 
 The gravatars will be saved in cache under Symfony's upload dir, according to the setting of your Symfony's setup.
 
-For more information, check the gravatar page : http://en.gravatar.com/site/implement/images/
+For more information, check the gravatar page: en.gravatar.com/site/implement/images/
 
 The plugin is being developed by Mickael Kurmann (mickael.kurmann AT gmail.com) and [Xavier Lacot](http://lacot.org/) (xavier AT lacot.org)
