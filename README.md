@@ -66,6 +66,6 @@ You can set some default option that are common for all of your gravatars in you
 
 The gravatars will be saved in cache under Symfony's upload dir, according to the setting of your Symfony's setup.
 
-For more information, check the gravatar page: en.gravatar.com/site/implement/images/
+For more information, check the gravatar page: "http:://en.gravatar.com/site/implement/images/"
 
 The plugin is being developed by Mickael Kurmann (mickael.kurmann AT gmail.com) and [Xavier Lacot](http://lacot.org/) (xavier AT lacot.org)
